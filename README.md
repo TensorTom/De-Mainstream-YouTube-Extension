@@ -2,7 +2,9 @@
 
 A browser extension to remove Mainstream Media results from YouTube™ searches. Fixes the YouTube™ algorithm to remove mainstream media results from searches.
 
-Download on the Chrome Web Store here: https://chrome.google.com/webstore/detail/de-mainstream/dkcdmdpcapjlaoioeenamjdanpeehjan
+Download for Brave, Dissenter, Chrome-based browsers on the Chrome Web Store here: https://chrome.google.com/webstore/detail/de-mainstream/dkcdmdpcapjlaoioeenamjdanpeehjan
+
+Download for Firefox browsers on the Firefox Add-on Store here: https://addons.mozilla.org/en-US/firefox/addon/de-mainstream-youtube
 
 ## Set up & Run it
 
