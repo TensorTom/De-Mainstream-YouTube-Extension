@@ -101,9 +101,10 @@ html {
   position: relative;
   height: 100%;
   width: 100%;
-  padding: 8px;
+  padding: 6px 4px;
   border: 1px solid transparent;
   border-radius: 6px;
+  cursor: pointer;
 }
 
 .list-item__checkbox:checked+.list-item__block {
@@ -113,12 +114,12 @@ html {
 
 .list-item__icon {
   display: block;
-  height: 34px;
-  width: 34px;
+  height: 30px;
+  width: 30px;
   margin: 0 auto;
   -o-object-fit: cover;
   object-fit: cover;
-  border-radius: 17px;
+  border-radius: 15px;
 }
 
 .list-item__text {
@@ -131,7 +132,7 @@ html {
 }
 
 .controls {
-  display: block;
+  display: flex;
   border: 1px solid #bbb;
   border-top: none;
   padding: 6px 10px;
@@ -140,4 +141,30 @@ html {
 .controls__btn {
   display: inline-block;
   margin-right: 10px;
+}
+
+.controls__btn--custom {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.custom-view {
+  display: block;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  border: 1px solid #bbb;
+  background-color: #F9F6F9;
+  padding: 2px;
+}
+
+.custom-view__img {
+  display: block;
+  width: 280px;
+  height: 296px;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none !important;
 }
